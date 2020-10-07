@@ -10,6 +10,7 @@
 }
 
 .bottom {
+  display:block;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -25,6 +26,10 @@
 
 .margin2x {
   margin: auto;
+}
+
+.center-all {
+
 }
 /* Typography */
 body {
@@ -821,6 +826,7 @@ aside.aside-left {
 .margin-bottom-40 {
   margin-bottom: 40px !important;
   display:block;
+  margin:auto 20px;
 
 }
 .margin-bottom-50 {
@@ -1244,6 +1250,9 @@ p.form-success {
   .size-1140 .line.content-center-vertical {
       padding: 0 2rem;
   }
+  .bottom {
+    text-align:right !important;
+  }
 }
 
 /* -768px version */
@@ -1587,6 +1596,10 @@ p.form-success {
     .owl-nav {
       display: none;
     }
+
+    .bottom {
+      text-align:center !important;
+    }
 }
 
 /* -480px version */
@@ -1897,6 +1910,7 @@ p.form-success {
         font-size: 70px !important;
         line-height: 1.4;
     }
+
 }
 
 /* Typography */
@@ -1916,6 +1930,10 @@ p.form-success {
 .text-padding-small {
   display: inline-block !important;
   padding: 7px 10px;
+}
+
+.back {
+  text-decoration:underline;
 }
 
 
@@ -2182,7 +2200,7 @@ nav.fixed .logo-after, .fixed nav .logo-after {
   margin: 0;
   max-width: 150px;
   position: relative;
-  top: 5px;
+  top: 10px;
   width: 100%;
 }
 

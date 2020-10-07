@@ -567,6 +567,8 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .xl-10 {width:83.3333%;}
   .xl-11 {width:91.6666%;}
   .xl-12 {width:100%;}
+
+
 }
 
 @media screen and (max-width:1140px) {
@@ -652,6 +654,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .l-10 {width:83.3333%;}
   .l-11 {width:91.6666%;}
   .l-12 {width:100%;}
+
 }
 
 @media screen and (max-width:768px) {
@@ -808,6 +811,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .m-10 {width:83.3333%;}
   .m-11 {width:91.6666%;}
   .m-12 {width:100%}
+
 }
 
 @media screen and (max-width:480px) {
@@ -942,7 +946,4 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   max-height:100px;
   padding-bottom: 30px;
 }
-
-.text-right {
-  text-align:center !important;
 }
