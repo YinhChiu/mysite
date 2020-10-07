@@ -720,8 +720,9 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
     vertical-align:middle;
   }
   .nav-text:after {
-    content:"\f008";
-    font-family:"mfg";
+    content:"\e601";
+    /* content:"\f008"; */
+    font-family:"sli";
     font-size:1.1rem;
     margin-left:0.5rem;
     text-align:right;
@@ -928,10 +929,20 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
 }
 
 .logo-bottom {
-  display:block !important;
+  display:inline !important;
+  text-align:center !important;
 }
 
 .aboutuspic {
   display:inline !important;
   max-width:100px;
+}
+
+.client-logo {
+  max-height:100px;
+  padding-bottom: 30px;
+}
+
+.text-right {
+  text-align:center !important;
 }
