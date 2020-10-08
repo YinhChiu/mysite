@@ -29,6 +29,13 @@
   margin: auto;
 }
 
+.iconpng {
+  width:auto;
+}
+
+.contact-word {
+  margin: 0 auto 10px;
+}
 
 /* Typography */
 body {
