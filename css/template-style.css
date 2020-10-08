@@ -3,7 +3,6 @@
 .aboutuspic {
         display:inline !important;
         max-width:100px;
-        width:aut0;
 }
 
 .logo-bottom {
@@ -30,9 +29,7 @@
   margin: auto;
 }
 
-.center-all {
 
-}
 /* Typography */
 body {
   background: #fff;
@@ -99,6 +96,7 @@ h6.headline, .h6.headline {
 .text-size-16, .text-l-size-16 {
   font-size: 16px !important;
   line-height: 1.4;
+  max-width:800px;
 }
 .text-size-20, .text-l-size-20 {
   font-size: 20px !important;
@@ -1252,9 +1250,6 @@ p.form-success {
   .size-1140 .line.content-center-vertical {
       padding: 0 2rem;
   }
-  .bottom {
-    text-align:right !important;
-  }
 
 }
 
@@ -1604,6 +1599,8 @@ p.form-success {
     .bottom {
       text-align:center !important;
     }
+
+
 }
 
 /* -480px version */
@@ -1922,6 +1919,8 @@ p.form-success {
     .small-screen-index {
       padding-top:50px !important;
     }
+
+
 }
 
 /* Typography */
@@ -1945,6 +1944,7 @@ p.form-success {
 
 .back {
   text-decoration:underline;
+  margin-bottom:50px;
 }
 
 
