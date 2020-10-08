@@ -1,8 +1,4 @@
 /* Default Template Styles */
-.xiangqingye {
-  padding: 0 30px;
-
-}
 
 .aboutuspic {
         display:inline !important;
@@ -1259,6 +1255,7 @@ p.form-success {
   .bottom {
     text-align:right !important;
   }
+
 }
 
 /* -768px version */
@@ -1275,7 +1272,7 @@ p.form-success {
       display: block;
       font-size: 1.2rem;
       line-height: 3rem;
-      margin-right: 0.625rem;
+      /* margin-right: 0.625rem; */
       max-width: 100%;
       text-align: center;
       vertical-align: middle;
